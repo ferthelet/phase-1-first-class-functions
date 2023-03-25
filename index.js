@@ -19,7 +19,9 @@ function returnsANamedFunction() {
 function returnsAnAnonymousFunction() {
     // take no arguments
     // return an anonymous function
-    return 0;
+    return function () {
+        console.log(`Fighting to learn callbacks!`);
+    };
 }
 
 
