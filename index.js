@@ -11,7 +11,9 @@ function receivesAFunction(callback) {
 function returnsANamedFunction() {
     // take no arguments
     // return a named function
-    return 0;
+    return function addNumbers(num1, num2) {
+        return num1 + num2;
+    }
 }
 
 function returnsAnAnonymousFunction() {
