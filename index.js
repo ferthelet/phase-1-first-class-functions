@@ -1,11 +1,11 @@
 // js
 
-function receivesAFunction() {
+function receivesAFunction(callback) {
     // take a callback function as an argument
     // call the callback function
     // it doesn't matter what this function returns, so long as it calls
     // the callback function
-    return 0;
+    callback();
 }
 
 function returnsANamedFunction() {
